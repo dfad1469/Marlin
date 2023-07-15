@@ -66,7 +66,7 @@
   #define Y_MAX_PIN                           34
 #endif
 #ifndef Z_MIN_PIN
-  #define Z_MIN_PIN                           33
+  #define Z_MIN_PIN                           30 // OLD 33 Z-Min is mapped to PC7 on exp 3
 #endif
 #ifndef Z_MAX_PIN
   #define Z_MAX_PIN                           32
@@ -155,15 +155,15 @@
 //
 #define HEATER_0_PIN                           2
 #define HEATER_1_PIN                           3
-#define HEATER_2_PIN                           6
+// #define HEATER_2_PIN                           6
 #define HEATER_3_PIN                           8
-#define HEATER_BED_PIN                         9
+#define HEATER_BED_PIN                         6
 
 #ifndef FAN_PIN
-  #define FAN_PIN                              7
+  #define FAN_PIN                              8
 #endif
 #ifndef FAN1_PIN
-  #define FAN1_PIN                             8
+//  #define FAN1_PIN                             8
 #endif
 
 //
